@@ -24,7 +24,7 @@
                 <h2></h2>
                 <ul>
                     <li v-on:click="changePage('Home')" id="home">Home</li>
-                    <li v-on:click="changePage('Search Offenders')" id="search-offenders" >Search Citizens</li>
+                    <li v-on:click="changePage('Search Offenders')" id="search-offenders" >Search Patients</li>
                     <li v-on:click="changePage('Search Reports')" id="search-reports" >Browse Files</li>
                     <li v-on:click="changePage('Submit Report')" id="submit-report" >Create a File</li>
                     <li v-on:click="changePage('Submit Note')" id="submit-note" >Create Telegram</li>
@@ -45,7 +45,7 @@
                         </span>
                     </div>
                     <div class="recent-citizen-searches">
-                        <h3>PATIENT SEARCH
+                        <h3>PATIENT SEARCHES
                         </h3>
                         <br />
                         <h4 v-if="recent_searches.person.length == 0"> ... </h4>
@@ -55,7 +55,7 @@
                         </span>
                     </div>
                     <div class="recent-notes">
-                    <h3>LATEST NOTES</h3>
+                    <h3>LATEST TELEGRAMS</h3>
                     <br />
                     <h4 v-if="homepage.note == false"> ... </h4>
                     <span v-if="homepage.note" v-for="note in homepage.note">
