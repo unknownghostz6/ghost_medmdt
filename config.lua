@@ -6,7 +6,7 @@
 Config = {}
 
 --[[ Command ]]--
-Config.Command = "mdt"
+Config.Command = "medmdt"
 
 --[[ Allowed Jobs ]]--
 Config.Jobs = {"doctor","doctor2","doctor3","doctor4","doctorsb","doctorbw"}
