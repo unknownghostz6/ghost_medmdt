@@ -6,7 +6,7 @@
 4. To bring up the mdt use /mdt in chat (this can be changed in config) and itll bring up the mdt with an animation as if you were pulling out a notebook or notepad.
 
 ## Example
-coming soon
+![pic1](https://cdn.discordapp.com/attachments/1092634580965666926/1092634736733737041/Screenshot_2.png)
 
 ## Original script made by i3ucky, i just changed some ui stuff and translated to english:
 https://github.com/i3ucky/bucky_med_mdt
